@@ -1,7 +1,6 @@
 # Credit Default Prediction
 **Kaggle: [Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit)**
 
----
 
 ## Task
 
@@ -9,7 +8,6 @@
 
 Основная метрика — **ROC-AUC**. Дополнительно отслеживаются PR-AUC, Precision, Recall и F1, поскольку классы сильно несбалансированы (93.3% / 6.7%).
 
----
 
 ## Data
 
@@ -20,7 +18,6 @@
 | Признаков | 10 |
 | Дефолтов | 6.7% |
 
----
 
 ## Features
 
@@ -37,7 +34,7 @@
 | `NumberOfTime60-89DaysPastDueNotWorse` | int | Количество просрочек 60–89 дней |
 | `NumberOfTimes90DaysLate` | int | Количество просрочек 90+ дней |
 
----
+
 
 ## Results
 
@@ -64,7 +61,6 @@
 - **`MonthlyIncome`** и **`DebtRatio`** имеют низкую важность — само значение дохода слабо разделяет классы.
 
 
----
 
 ## Methodology
 
